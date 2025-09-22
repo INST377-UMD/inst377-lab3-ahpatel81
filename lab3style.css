@@ -1,0 +1,73 @@
+  @font-face {
+    font-family: custom;
+    src: url(sansation_light.woff);
+  }
+
+  body {
+    font-family: custom;
+  }
+  
+  #bar {              
+    text-align: center;
+    background-color: olivedrab;
+    color: white;
+    padding: 5px;
+    margin: 12px;
+    font-family: cursive;
+    clear: both;
+  }
+  
+  #main-nav {
+    background-color: rgb(19, 83, 41);
+  }
+  
+  #main-nav ul {
+    list-style: none;       
+    display: flex;           
+  }
+  
+  #main-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+  
+  #main-nav a:hover {
+    background-color: rgb(155, 215, 152);
+  }
+  
+  .page {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+  }
+
+  #content {
+    width: 70%;                     
+    padding: 16px;            
+    margin: 10px;                         
+  }
+  
+  #sidebar {
+    width: 30%;                    
+    background: burlywood;     
+    margin: 5px;
+    padding: 16px;                     
+    transition: background-color .2s;
+  }
+
+  #sidebar:hover {
+    background: brown;
+  }
+  
+  #name {
+    width: 60%;
+    transition: width .2s ease;
+  }
+
+  #name:focus {
+    width: 90%;       
+    border-color: #666;
+  }
+  
